@@ -28,28 +28,54 @@ var myDog = {
     "tails" : 1,
     "friends" : ["kids", "toys", "dolphins"]
     };
+var myKid = {
+  "name" : "Aidan",
+  "age" : 12,
+  "eye color" : "Brown",
+  "hobbies" : ["Gaming", "Eating", "Sports"]
+};
+var myHouse = {
+  "address" : "3984 Dickson Ave",
+  "color" : "Red and Brown Brick",
+  "size" : 2300,
+  "upgrades" : ["In home sauna", "Deck addition", "New upgrades coming soon"]
+
+}
 
 //  # 7.
-
-var testObj = {
-    "hat": "ballcap",
-    "shirt": "jersey",
-    "shoes": "cleats"
+var myDog = {
+  "name" : "Roscoe",
+  "legs" : 4,
+  "tails" : 1,
+  "friends" : ["kids", "toys", "dolphins"]
   };
-  
-  var hatValue = testObj.hat;      
-  var shirtValue = testObj.shirt; 
-  
-//   # 8.
+var myKid = {
+"name" : "Aidan",
+"age" : 12,
+"eye color" : "Brown",
+"hobbies" : ["Gaming", "Eating", "Sports"]
+};
+var myHouse = {
+"address" : "3984 Dickson Ave",
+"color" : "Red and Brown Brick",
+"size" : 2300,
+"upgrades" : ["In home sauna", "Deck addition", "New upgrades coming soon"]
+}
 
-var testObj = {
-    "an entree": "hamburger",
-    "my side": "veggies",
-    "the drink": "water"
-  };
-  
-  var entreeValue = testObj["an entree"];   
-  var drinkValue = testObj["the drink"]; 
+var nameValue = myDog["name"];
+var legsValue = myDog["legs"];
+var friendsValue = myDog["friends"];
+
+var nameValue = myKid["name"];
+var ageValue = myKid["age"];
+var hobbiesValue = myKid["hobbies"];
+
+var addressValue = myHouse["address"];
+var sizeValue = myHouse["size"];
+var colorValue = myHouse["color"];
+
+
+ 
 
 //  # 9.
 
